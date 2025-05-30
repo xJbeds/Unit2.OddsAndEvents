@@ -1,3 +1,9 @@
+const state = {
+  bank: [],
+  odds: [],
+  evens: [],
+};
+
 const appDiv = document.querySelector(`#app`);
 
 appDiv.innerHTML = `
@@ -20,6 +26,13 @@ appDiv.innerHTML = `
 <output></output>
 
 `;
+
+// user types in to the input box
+// we need to grab the form
+// add the submit event listener to the form
+// grab what the suer typed in
+// store that bumber in the bank
+// re-render the page
 
 // const numbers = {
 //   numberBank: [],
